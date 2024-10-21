@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
-import Greet from './components/Greet';
-import Person from './components/Person';
-import PersonList from './components/PersonList';
-import Status from './components/Status';
-import Heading from './components/Heading';
-import Oscar from './components/Oscar';
-import Button from './components/Button';
-import Input from './components/Input';
-import Container from './components/Container';
+import Greet from './components/props/Greet';
+import Person from './components/props/Person';
+import PersonList from './components/props/PersonList';
+import Status from './components/props/Status';
+import Heading from './components/props/Heading';
+import Oscar from './components/props/Oscar';
+import Button from './components/props/Button';
+import Input from './components/props/Input';
+import Container from './components/props/Container';
 
 function App() {
 
@@ -34,9 +34,9 @@ function App() {
 
   return (
     <div className="App">
-      {/* <Greet name='Ushika' messageCount={20} isLoggedIn={false} />
+      <Greet name='Ushika' messageCount={20} isLoggedIn={false} />
       <Person name={personName}/>
-      <PersonList name={nameList} /> */}
+      <PersonList name={nameList} />
       <Status status='success'/>
       <Heading>Placeholder Text</Heading>
       <Oscar>
