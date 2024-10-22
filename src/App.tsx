@@ -9,6 +9,12 @@ import Oscar from './components/props/Oscar';
 import Button from './components/props/Button';
 import Input from './components/props/Input';
 import Container from './components/props/Container';
+import UseStateFuturevalue from './components/hooks/useStateHook/UseStateFutureValue';
+import UseStateHook from './components/hooks/useStateHook/UseStateHook';
+import UseReducerHook from './components/hooks/useReducerHook/UseReducerHook';
+import UseContextHook from './components/hooks/useContextHook/UseContextHook';
+import DomRef from './components/hooks/useRef/DomRef';
+import MutableRef from './components/hooks/useRef/MutableRef';
 
 function App() {
 
@@ -53,6 +59,12 @@ function App() {
         handleChange={event => console.log(event)}
       />
       <Container styles={{border: '1px solid black', padding:'1rem' }} />
+      <UseStateHook />
+      <UseStateFuturevalue />
+      <UseReducerHook />
+      <UseContextHook />
+      <DomRef />
+      <MutableRef />
     </div>
   );
 }
