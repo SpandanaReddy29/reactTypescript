@@ -15,6 +15,7 @@ import UseReducerHook from './components/hooks/useReducerHook/UseReducerHook';
 import UseContextHook from './components/hooks/useContextHook/UseContextHook';
 import DomRef from './components/hooks/useRef/DomRef';
 import MutableRef from './components/hooks/useRef/MutableRef';
+import ListItem from './components/generics/ListItem';
 
 function App() {
 
@@ -65,6 +66,7 @@ function App() {
       <UseContextHook />
       <DomRef />
       <MutableRef />
+      <ListItem />
     </div>
   );
 }
